@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love-themed Questionnaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6e6; /* Light pink */
+            color: #333; /* Dark grey */
+        }
+        h1 {
+            text-align: center;
+            color: #cc0066; /* Dark pink */
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff; /* White */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc; /* Light grey */
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #cc0066; /* Dark pink */
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        input[type="submit"]:hover {
+            background-color: #99004d; /* Darker pink */
+        }
+    </style>
+</head>
+<body>
+
+<h1>Questions For You lovee!</h1>
+
+<form action="DoneSubmission.html" method="post">
+    <label for="eaten">Have you eaten well today?</label>
+    <input type="text" id="eaten" name="eaten" placeholder="Yes / No" required>
+
+    <label for="slept">Have you slept well last night?</label>
+    <input type="text" id="slept" name="slept" placeholder="Yes / No" required>
+
+    <label for="love_luis">Do you love Luis?</label>
+    <input type="text" id="love_luis" name="love_luis" placeholder="Yes / No" required>
+
+    <label for="enough_sleep">Do you feel you've had enough sleep?</label>
+    <input type="text" id="enough_sleep" name="enough_sleep" placeholder="Yes / No" required>
+
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
